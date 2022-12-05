@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0B0F45293E4FFF00EE3128 /* Jurassic Park.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A0B0F44293E4FFF00EE3128 /* Jurassic Park.ttf */; };
+		0A0B0F47293E535B00EE3128 /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B0F46293E535B00EE3128 /* ActionButtonView.swift */; };
 		0A9BF54A293BB12700BB3A44 /* JurassicMattApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BF549293BB12700BB3A44 /* JurassicMattApp.swift */; };
 		0A9BF54C293BB12700BB3A44 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BF54B293BB12700BB3A44 /* HomeView.swift */; };
 		0A9BF54E293BB12800BB3A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9BF54D293BB12800BB3A44 /* Assets.xcassets */; };
@@ -14,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A0B0F43293E4F7800EE3128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0A0B0F44293E4FFF00EE3128 /* Jurassic Park.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Jurassic Park.ttf"; path = "../../../../../../Downloads/dino/font/Jurassic Park.ttf"; sourceTree = "<group>"; };
+		0A0B0F46293E535B00EE3128 /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
 		0A9BF546293BB12700BB3A44 /* JurassicMatt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JurassicMatt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9BF549293BB12700BB3A44 /* JurassicMattApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JurassicMattApp.swift; sourceTree = "<group>"; };
 		0A9BF54B293BB12700BB3A44 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -51,8 +56,11 @@
 		0A9BF548293BB12700BB3A44 /* JurassicMatt */ = {
 			isa = PBXGroup;
 			children = (
+				0A0B0F43293E4F7800EE3128 /* Info.plist */,
+				0A0B0F44293E4FFF00EE3128 /* Jurassic Park.ttf */,
 				0A9BF549293BB12700BB3A44 /* JurassicMattApp.swift */,
 				0A9BF54B293BB12700BB3A44 /* HomeView.swift */,
+				0A0B0F46293E535B00EE3128 /* ActionButtonView.swift */,
 				0A9BF54D293BB12800BB3A44 /* Assets.xcassets */,
 				0A9BF54F293BB12800BB3A44 /* Preview Content */,
 			);
@@ -127,6 +135,7 @@
 			files = (
 				0A9BF551293BB12800BB3A44 /* Preview Assets.xcassets in Resources */,
 				0A9BF54E293BB12800BB3A44 /* Assets.xcassets in Resources */,
+				0A0B0F45293E4FFF00EE3128 /* Jurassic Park.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +148,7 @@
 			files = (
 				0A9BF54C293BB12700BB3A44 /* HomeView.swift in Sources */,
 				0A9BF54A293BB12700BB3A44 /* JurassicMattApp.swift in Sources */,
+				0A0B0F47293E535B00EE3128 /* ActionButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +280,7 @@
 				DEVELOPMENT_TEAM = 5L6U43CM7C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JurassicMatt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +310,7 @@
 				DEVELOPMENT_TEAM = 5L6U43CM7C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JurassicMatt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
